@@ -49,6 +49,7 @@ export default {
     },
     setResults(results) {
       this.weather = results;
+      this.search = "";
     },
     dateBuilder() {
       var d = new Date();
